@@ -8,4 +8,4 @@ class Contact(db.Model):
     phone = db.Column(db.String(20))
 
     def __repr__(self):
-        return '<Contact %r>' % self.username
+        return '<Contact %r>' % self.name
